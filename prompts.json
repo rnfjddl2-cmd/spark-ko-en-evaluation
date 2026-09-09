@@ -1,0 +1,218 @@
+[
+  {
+    "id": "discount1-en",
+    "pair": "discount1",
+    "family": "discount_order",
+    "language": "en",
+    "expected": "29150",
+    "derivation": "37000*(100-15)/100-2300=29150",
+    "prompt": "A fictional shop sells a kit for 37000 won. First it discounts that price by 15%, then subtracts a 2300-won coupon. What is the final price in won?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "discount1-ko",
+    "pair": "discount1",
+    "family": "discount_order",
+    "language": "ko",
+    "expected": "29150",
+    "derivation": "37000*(100-15)/100-2300=29150",
+    "prompt": "가상의 가게에서 키트 가격은 3만 7000원입니다. 먼저 이 가격에서 15%를 할인하고, 그다음 2300원 쿠폰을 뺍니다. 최종 가격은 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "discount2-en",
+    "pair": "discount2",
+    "family": "discount_order",
+    "language": "en",
+    "expected": "38780",
+    "derivation": "46000*(100-12)/100-1700=38780",
+    "prompt": "A fictional shop sells a kit for 46000 won. First it discounts that price by 12%, then subtracts a 1700-won coupon. What is the final price in won?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "discount2-ko",
+    "pair": "discount2",
+    "family": "discount_order",
+    "language": "ko",
+    "expected": "38780",
+    "derivation": "46000*(100-12)/100-1700=38780",
+    "prompt": "가상의 가게에서 키트 가격은 4만 6000원입니다. 먼저 이 가격에서 12%를 할인하고, 그다음 1700원 쿠폰을 뺍니다. 최종 가격은 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "net1-en",
+    "pair": "net1",
+    "family": "fee_base",
+    "language": "en",
+    "expected": "73990",
+    "derivation": "83000-83000*7/100-3200=73990",
+    "prompt": "In a fictional sale, the buyer pays 83000 won. A platform takes 7% of that buyer payment. The seller also pays 3200 won shipping. After both costs, how many won remain?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "net1-ko",
+    "pair": "net1",
+    "family": "fee_base",
+    "language": "ko",
+    "expected": "73990",
+    "derivation": "83000-83000*7/100-3200=73990",
+    "prompt": "가상의 거래에서 구매자는 8만 3000원을 냅니다. 플랫폼은 구매자가 낸 금액의 7%를 수수료로 가져갑니다. 판매자는 배송비 3200원도 냅니다. 두 비용을 뺀 나머지는 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "net2-en",
+    "pair": "net2",
+    "family": "fee_base",
+    "language": "en",
+    "expected": "58170",
+    "derivation": "67000-67000*9/100-2800=58170",
+    "prompt": "In a fictional sale, the buyer pays 67000 won. A platform takes 9% of that buyer payment. The seller also pays 2800 won shipping. After both costs, how many won remain?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "net2-ko",
+    "pair": "net2",
+    "family": "fee_base",
+    "language": "ko",
+    "expected": "58170",
+    "derivation": "67000-67000*9/100-2800=58170",
+    "prompt": "가상의 거래에서 구매자는 6만 7000원을 냅니다. 플랫폼은 구매자가 낸 금액의 9%를 수수료로 가져갑니다. 판매자는 배송비 2800원도 냅니다. 두 비용을 뺀 나머지는 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "pack1-en",
+    "pair": "pack1",
+    "family": "integer_ceiling",
+    "language": "en",
+    "expected": "86800",
+    "derivation": "ceil(37*3/8)=14; 14*6200=86800",
+    "prompt": "37 people each need 3 stickers. Stickers are sold only in whole packs of 8, costing 6200 won per pack. What is the minimum total cost in won?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "pack1-ko",
+    "pair": "pack1",
+    "family": "integer_ceiling",
+    "language": "ko",
+    "expected": "86800",
+    "derivation": "ceil(37*3/8)=14; 14*6200=86800",
+    "prompt": "37명에게 각각 스티커 3개가 필요합니다. 스티커는 8개들이 한 팩 단위로만 판매하며, 한 팩 가격은 6200원입니다. 필요한 최소 총비용은 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "pack2-en",
+    "pair": "pack2",
+    "family": "integer_ceiling",
+    "language": "en",
+    "expected": "74100",
+    "derivation": "ceil(29*4/9)=13; 13*5700=74100",
+    "prompt": "29 people each need 4 stickers. Stickers are sold only in whole packs of 9, costing 5700 won per pack. What is the minimum total cost in won?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "pack2-ko",
+    "pair": "pack2",
+    "family": "integer_ceiling",
+    "language": "ko",
+    "expected": "74100",
+    "derivation": "ceil(29*4/9)=13; 13*5700=74100",
+    "prompt": "29명에게 각각 스티커 4개가 필요합니다. 스티커는 9개들이 한 팩 단위로만 판매하며, 한 팩 가격은 5700원입니다. 필요한 최소 총비용은 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "tier1-en",
+    "pair": "tier1",
+    "family": "tier_boundary",
+    "language": "en",
+    "expected": "10500",
+    "derivation": "4500+(7-2)*1200=10500",
+    "prompt": "A locker rental costs a total of 4500 won for the first 2 hours, then 1200 won for each additional hour. It is rented for exactly 7 hours. What is the total charge in won?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "tier1-ko",
+    "pair": "tier1",
+    "family": "tier_boundary",
+    "language": "ko",
+    "expected": "10500",
+    "derivation": "4500+(7-2)*1200=10500",
+    "prompt": "보관함 대여료는 처음 2시간 전체에 대해 4500원이고, 그 이후에는 한 시간마다 1200원씩 추가됩니다. 정확히 7시간 빌리면 총요금은 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "tier2-en",
+    "pair": "tier2",
+    "family": "tier_boundary",
+    "language": "en",
+    "expected": "10600",
+    "derivation": "5200+(9-3)*900=10600",
+    "prompt": "A locker rental costs a total of 5200 won for the first 3 hours, then 900 won for each additional hour. It is rented for exactly 9 hours. What is the total charge in won?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "tier2-ko",
+    "pair": "tier2",
+    "family": "tier_boundary",
+    "language": "ko",
+    "expected": "10600",
+    "derivation": "5200+(9-3)*900=10600",
+    "prompt": "보관함 대여료는 처음 3시간 전체에 대해 5200원이고, 그 이후에는 한 시간마다 900원씩 추가됩니다. 정확히 9시간 빌리면 총요금은 몇 원인가요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "mix1-en",
+    "pair": "mix1",
+    "family": "weighted_percentage",
+    "language": "en",
+    "expected": "26",
+    "derivation": "(180*20+120*35)/(180+120)=26",
+    "prompt": "Mix 180 grams of a 20%-by-mass salt solution with 120 grams of a 35%-by-mass salt solution. No mass is lost. What is the resulting salt percentage (give the percentage number, not a fraction of one)?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "mix1-ko",
+    "pair": "mix1",
+    "family": "weighted_percentage",
+    "language": "ko",
+    "expected": "26",
+    "derivation": "(180*20+120*35)/(180+120)=26",
+    "prompt": "질량 기준 농도 20%인 소금물 180그램과 농도 35%인 소금물 120그램을 섞습니다. 질량 손실은 없습니다. 섞은 소금물의 농도는 몇 %인가요? (1에 대한 비율이 아니라 백분율의 숫자를 답하세요.)\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "mix2-en",
+    "pair": "mix2",
+    "family": "weighted_percentage",
+    "language": "en",
+    "expected": "22",
+    "derivation": "(150*12+250*28)/(150+250)=22",
+    "prompt": "Mix 150 grams of a 12%-by-mass salt solution with 250 grams of a 28%-by-mass salt solution. No mass is lost. What is the resulting salt percentage (give the percentage number, not a fraction of one)?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "mix2-ko",
+    "pair": "mix2",
+    "family": "weighted_percentage",
+    "language": "ko",
+    "expected": "22",
+    "derivation": "(150*12+250*28)/(150+250)=22",
+    "prompt": "질량 기준 농도 12%인 소금물 150그램과 농도 28%인 소금물 250그램을 섞습니다. 질량 손실은 없습니다. 섞은 소금물의 농도는 몇 %인가요? (1에 대한 비율이 아니라 백분율의 숫자를 답하세요.)\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "time1-en",
+    "pair": "time1",
+    "family": "interval_count",
+    "language": "en",
+    "expected": "130",
+    "derivation": "(8-1)*17+11=130",
+    "prompt": "A machine stamps its first card at time zero. It stamps 8 cards in total, with 17 seconds between consecutive cards. Immediately after card 4, it adds a one-time pause of 11 seconds before resuming the usual interval. How many seconds elapse from the first stamp to the last?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "time1-ko",
+    "pair": "time1",
+    "family": "interval_count",
+    "language": "ko",
+    "expected": "130",
+    "derivation": "(8-1)*17+11=130",
+    "prompt": "기계는 0초에 첫 카드를 찍습니다. 총 8장의 카드를 찍으며, 연속된 두 카드를 찍는 사이의 시간은 17초입니다. 4번째 카드를 찍은 직후에 한 번만 11초를 추가로 쉬고, 그 뒤 평소 간격으로 작업합니다. 첫 카드부터 마지막 카드까지 몇 초가 걸리나요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  },
+  {
+    "id": "time2-en",
+    "pair": "time2",
+    "family": "interval_count",
+    "language": "en",
+    "expected": "123",
+    "derivation": "(9-1)*13+19=123",
+    "prompt": "A machine stamps its first card at time zero. It stamps 9 cards in total, with 13 seconds between consecutive cards. Immediately after card 5, it adds a one-time pause of 19 seconds before resuming the usual interval. How many seconds elapse from the first stamp to the last?\n\nShow a short calculation. End with exactly one line FINAL: <number>, in the unit requested. Use an integer, decimal, or fraction and no unit on that final line."
+  },
+  {
+    "id": "time2-ko",
+    "pair": "time2",
+    "family": "interval_count",
+    "language": "ko",
+    "expected": "123",
+    "derivation": "(9-1)*13+19=123",
+    "prompt": "기계는 0초에 첫 카드를 찍습니다. 총 9장의 카드를 찍으며, 연속된 두 카드를 찍는 사이의 시간은 13초입니다. 5번째 카드를 찍은 직후에 한 번만 19초를 추가로 쉬고, 그 뒤 평소 간격으로 작업합니다. 첫 카드부터 마지막 카드까지 몇 초가 걸리나요?\n\n짧게 계산 과정을 쓰세요. 마지막에는 FINAL: <숫자> 형식의 줄을 정확히 한 번 쓰세요. 답은 문제에서 요구한 단위로 쓰고, 마지막 줄에는 정수·소수·분수만 쓰고 단위는 붙이지 마세요."
+  }
+]

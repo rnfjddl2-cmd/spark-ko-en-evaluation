@@ -1,0 +1,28 @@
+[
+  {
+    "mode": "on",
+    "n": 24,
+    "correct": 10,
+    "en_correct": 7,
+    "ko_correct": 3,
+    "truncated": 8,
+    "format_failure": 4,
+    "wrong_number": 2,
+    "total_seconds": 252.0,
+    "median_seconds": 10.227,
+    "completion_tokens": 26817
+  },
+  {
+    "mode": "off",
+    "n": 24,
+    "correct": 7,
+    "en_correct": 5,
+    "ko_correct": 2,
+    "truncated": 0,
+    "format_failure": 5,
+    "wrong_number": 12,
+    "total_seconds": 45.641,
+    "median_seconds": 0.836,
+    "completion_tokens": 2442
+  }
+]
