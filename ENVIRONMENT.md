@@ -12,7 +12,7 @@
 - Model SHA256: `902bde2522394954ac17821b3e5fd0df02defbc6944f122253f2580acf0503f4`.
 - Pinned download: https://huggingface.co/XHToken/Spark-X2.5-1.7B-GGUF/resolve/23e1fcac55e7dd71e4c12a23723cc228ba0e5e85/Spark-X2.5-1.7B-Q4_K_M.gguf
 
-The public pinned artifact was downloaded by HTTPS without authentication. No Hugging Face CLI login was performed because the user has no account yet. The event's stated CLI sign-in step and eligibility need resolution before claiming a conforming entry; this report does not imply that an unauthenticated download satisfied every administrative step. No model weight is uploaded here.
+The public pinned artifact was originally downloaded by HTTPS without authentication. The entrant now has a verified Hugging Face website account. On September 11, the official Hugging Face CLI 1.31.0 verified the same pinned artifact with `hf download`; the revision and SHA-256 match the file used in the retained runs. See [CLI acquisition evidence](CLI-ACQUISITION.md). CLI authentication has not been completed. The organizer has been asked whether authentication is independently mandatory for this public artifact; the successful anonymous command is not presented as a waiver. No model weight is uploaded here.
 
 Actual server command from workspace root (loopback endpoint only):
 

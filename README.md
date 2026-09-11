@@ -2,7 +2,7 @@
 
 An original paired Korean/English quantitative case study of **Spark-X2.5-1.7B Q4_K_M**, with a post-hoc thinking-off comparison. 24 fixed prompts per mode, 48 real local completions, no selected reruns. Prepared for possible HER Hack-Astron #6 participation.
 
-**Status: research artifacts published; human review and eligibility confirmation pending. This repository is not a formal contest entry, award or payment claim.** Codex designed the cases, implemented the scripts, operated model inference, inspected outputs and wrote this report on the account owner's authorization. The human account owner has not yet reviewed or reproduced the completed experiment. We do not claim that these AI-operated runs were personally performed by the human entrant. AI assistance will be disclosed in any eventual submission.
+**Status: research artifacts published; payout eligibility confirmed by the organizer on September 11; human reproduction/review and CLI-authentication clarification pending. This repository is not a formal contest entry, award or payment claim.** Codex designed the cases, implemented the scripts, operated model inference, inspected outputs and wrote this report on the account owner's authorization. The human account owner has not yet reviewed or reproduced the completed experiment. We do not claim that these AI-operated runs were personally performed by the human entrant. AI assistance will be disclosed in any eventual submission. See [official CLI acquisition verification](CLI-ACQUISITION.md) for the subsequently verified pinned artifact.
 
 ## Result
 
